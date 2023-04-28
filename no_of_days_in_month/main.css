@@ -1,0 +1,29 @@
+
+*{
+font-size: 30px;
+box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.container{
+    padding:0 10%;
+}
+.days{
+    border: 2px solid black;
+    margin: 40px 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.boxes{
+    background-color: green;
+    width: 169px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px 10px;
+}
