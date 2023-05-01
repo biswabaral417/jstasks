@@ -11,11 +11,18 @@
 
 <body>
     <!-- left empty for now -->
-    <div class="play">
-        <h1>to play rock paper scissor click or tap buttons below</h1>
-        <button type="button" class="pbtn" id="rbtn" onclick="rock()"></button>
-        <button type="button" class="pbtn" id="pprbtn" onclick="paper()"></button>
-        <button type="button" class="pbtn" id="scbtn" onclick="scissor()"></button>
+    <div>
+        <h1>play rock paper scissor against computer</h1>
+        <div class="play">
+            <button type="button" class="pbtn" id="rbtn" onclick="rock()"></button>
+            <button type="button" class="pbtn" id="pprbtn" onclick="paper()"></button>
+            <button type="button" class="pbtn" id="scbtn" onclick="scissor()"></button>
+            <h2>computer choices</h2>
+            <button type="button" class="pbtn" id="crbtn"></button>
+            <button type="button" class="pbtn" id="cpprbtn"></button>
+            <button type="button" class="pbtn" id="cscbtn"></button>
+            <h2 id="resulttxt">&nbsp;</h2>
+        </div>
     </div>
 </body>
 <script src="index.js">

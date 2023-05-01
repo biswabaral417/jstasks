@@ -1,34 +1,43 @@
 *{
     font-size: 40px;
     box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
 }
 .play{
-    margin:0px 10%;
+    /* border: 2px solid red; */
+    margin:10px 10%;
     padding: 20px;
-    /* border: 10px solid black; */
-    min-height:700px;
+    min-height:650px;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
     flex-wrap: wrap;
 }
+
 .pbtn{
-    height: 100px;
-    width: 100px;
-    border-style: none;
+    height: 130px;
+    width: 130px;
     cursor: pointer;
     border-radius: 20%;
-    margin: 20px;
+    /* margin:0px 12%; */
 }
-#rbtn{
+h2{
+    width: 100%;
+    text-align: center;
+}
+#rbtn,#crbtn{
     background-image: url(images/therock.png);
     background-size: contain;
 }
-#pprbtn{
+#pprbtn,#cpprbtn{
     background-image: url(images/paper.png);
     background-size: contain;
 }
-#scbtn{
+#scbtn,#cscbtn{
     background-color: #fbf6f6;
     background-image: url(images/scissors.png);
     background-size:contain;
@@ -36,5 +45,10 @@
     background-position: center;
 }
 h1{
+    margin: 50px;
     text-align: center;
+}
+
+.pbtn:hover{
+    box-shadow: 0px 0px 100px 0px rgb(173, 173, 173);
 }
